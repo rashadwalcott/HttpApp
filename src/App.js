@@ -53,7 +53,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <React.Fragment>
         <ToastContainer />
         <button className="btn btn-primary" onClick={this.handleAdd}>
           Add
@@ -90,7 +90,7 @@ class App extends Component {
             ))}
           </tbody>
         </table>
-      </>
+      </React.Fragment>
     );
   }
 }
